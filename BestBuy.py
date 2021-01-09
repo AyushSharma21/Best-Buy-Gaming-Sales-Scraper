@@ -64,3 +64,4 @@ quick_sort(item_list, 0, len(item_list) - 1)
 for i in range(0, len(item_list)):
     print("Product Name:", item_list[i].name)
     print("Regular Price:", '${:,.2f}'.format(item_list[i].reg_price), "Discounted Price:", '${:,.2f}'.format(item_list[i].discount_price), "Percent off:", str(int(100 * item_list[i].percent_off))+'%')
+    print("\n")
